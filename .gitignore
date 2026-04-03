@@ -1,0 +1,35 @@
+## Visual Studio
+.vs/
+[Bb]in/
+[Oo]bj/
+[Gg]enerated/
+TestResults/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+## NuGet Packages
+*.nupkg
+# Ignorar la carpeta packages completa
+**/packages/*
+!**/packages/build/
+
+## Archivos de Usuario y Temporales
+*.log
+*.tmp
+*.temp
+*.swp
+*.DS_Store
+Thumbs.db
+
+## Archivos de Base de Datos
+*.mdf
+*.ldf
+*.sdf
+
+## Archivos de Diseño
+*.ai
+
+## Carpetas de Build de Visual Studio Code (Si lo llegas a usar)
+.vscode/
